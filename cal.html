@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+
+</head>
+
+<body>
+
+    <div class="main">
+
+       <div id="ansbox">
+        </div> 
+
+       <div class="menu">
+             <ul id="r">
+                <button id="b" onclick="input(9)">9</button>
+                <button id="b" onclick="input(8)">8</button>
+                <button id="b" onclick="input(7)">7</button>
+                <button id="b" onclick="reset()">C</button>
+             </ul>
+    
+             <ul id="r">
+                  <button id="b" onclick="input(6)">6</button>
+                  <button id="b" onclick="input(5)">5</button>
+                  <button id="b" onclick="input(4)">4</button>
+                  <button id="b" onclick="input('/')">/</button>
+             </ul>
+
+              <ul id="r">
+                  <button id="b" onclick="input(3)">3</button>
+                  <button id="b" onclick="input(2)">2</button>
+                  <button id="b" onclick="input(1)">1</button>
+                  <button id="b" onclick="input('*')">*</button>
+               </ul>
+   
+                <ul id="r">
+                   <button id="b" onclick="input(0)">0</button>
+                   <button id="b" onclick="input('-')">-</button>
+                   <button id="b" onclick="input('+')">+</button>
+                   <button id="b" onclick="result()">=</button>
+                </ul>
+       </div>
+   </div>
+    
+    <script src="cal.js">
+    </script>
+
+
+</body>

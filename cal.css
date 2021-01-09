@@ -1,0 +1,68 @@
+*
+{
+    background-color: blueviolet;
+}
+
+.main
+{
+    border: 8px solid rgb(15, 1, 12);
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    padding-top: 10%;
+    background-color: rgb(170, 210, 247);
+}
+
+#ansbox
+{
+    font-size: 35px;
+    border: 6px solid black;
+    border-radius: 12px;
+    background-color:rgb(228, 224, 224);
+    padding-top: 7%;
+    padding-bottom: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: -100px;
+    margin-left: -90px;
+    margin-right: -90px;
+}
+
+.menu
+{
+    margin-left: -90px;
+    margin-top: 10%;
+    margin-right:-90px;
+    padding-bottom: 9%;
+    background-color: rgb(170, 210, 247);
+    border: 7px solid black;
+    border-radius: 12px;
+}
+
+#r
+{
+    padding-bottom: 2%;
+    background-color: rgb(170, 210, 247);
+}
+
+#b:hover
+{
+        background-color:teal; 
+        color: white;
+}
+
+#b
+{
+    background-color:linen;
+    border: 3px solid black; 
+    font-size: 35px;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 15px;
+    margin-right: 10px;
+
+}
